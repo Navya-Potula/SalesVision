@@ -1,0 +1,13 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editor / operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep the project data and generated deliverables tracked.

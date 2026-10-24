@@ -1,0 +1,601 @@
+Order_ID,Order_Date,Product,Category,Region,Segment,Quantity,Unit_Price,Unit_Cost,Sales,Profit
+ORD-0001,2025-02-02,Backpack,Accessories,North,Small Business,6,48.67,24.05,292.02,147.72
+ORD-0002,2025-10-10,Office Chair,Furniture,South,Consumer,7,192.38,107.82,1346.66,591.92
+ORD-0003,2025-08-27,Office Chair,Furniture,East,Consumer,2,173.56,109.63,347.12,127.86
+ORD-0004,2025-06-10,Headphones,Electronics,South,Small Business,4,89.37,36.77,357.48,210.4
+ORD-0005,2025-06-08,Monitor,Electronics,East,Corporate,7,230.9,165.94,1616.3,454.72
+ORD-0006,2025-11-10,Notebook,Office Supplies,Central,Consumer,2,6.08,2.04,12.16,8.08
+ORD-0007,2025-02-01,Pen Set,Office Supplies,South,Consumer,1,14.75,5.29,14.75,9.46
+ORD-0008,2025-09-12,Notebook,Office Supplies,North,Small Business,6,6.37,1.87,38.22,27.0
+ORD-0009,2025-03-15,Phone,Electronics,Central,Corporate,8,464.5,299.42,3716.0,1320.64
+ORD-0010,2025-02-04,Backpack,Accessories,Central,Consumer,8,45.28,24.35,362.24,167.44
+ORD-0011,2025-07-12,Notebook,Office Supplies,North,Consumer,2,6.13,2.02,12.26,8.22
+ORD-0012,2025-12-23,Office Chair,Furniture,West,Corporate,6,199.77,111.86,1198.62,527.46
+ORD-0013,2025-09-26,Desk Lamp,Furniture,North,Corporate,7,29.1,14.01,203.7,105.63
+ORD-0014,2025-10-05,Desk,Furniture,West,Small Business,8,272.43,165.47,2179.44,855.68
+ORD-0015,2025-09-19,Backpack,Accessories,South,Consumer,6,46.61,23.29,279.66,139.92
+ORD-0016,2025-10-14,Phone,Electronics,Central,Corporate,1,425.47,289.49,425.47,135.98
+ORD-0017,2025-07-07,Notebook,Office Supplies,Central,Consumer,8,6.45,1.99,51.6,35.68
+ORD-0018,2025-02-16,Desk Lamp,Furniture, South ,Small Business,1,35.77,14.08,35.77,21.69
+ORD-0019,2025-11-03,Notebook,Office Supplies,North,Consumer,1,6.16,2.06,6.16,4.1
+ORD-0020,2025-06-14,Office Chair,Furniture,Central,Consumer,6,176.46,111.26,1058.76,391.2
+ORD-0021,2025-07-02,Headphones,Electronics,Central,Small Business,5,91.4,35.63,457.0,278.85
+ORD-0022,2025-05-16,Monitor,Electronics,South,Small Business,6,261.41,154.61,1568.46,640.8
+ORD-0023,2025-03-08,Pen Set,Office Supplies,West,Consumer,2,12.64,5.32,25.28,14.64
+ORD-0024,2025-12-05,Headphones,Electronics,North,Small Business,4,91.31,36.17,365.24,220.56
+ORD-0025,2025-10-13,Notebook,Office Supplies,North,Corporate,8,5.29,1.86,42.32,27.44
+ORD-0026,2025-08-24,Backpack,Accessories,South,Corporate,8,52.43,22.3,419.44,241.04
+ORD-0027,2025-05-27,Desk Lamp,Furniture,West,Consumer,1,33.74,15.81,33.74,17.93
+ORD-0028,2025-10-28,Phone,Electronics,North,Corporate,1,432.64,306.57,432.64,126.07
+ORD-0029,2025-07-19,Monitor,Electronics,North,Consumer,4,255.28,156.9,1021.12,393.52
+ORD-0030,2025-06-11,Pen Set,Office Supplies,Central,Corporate,5,14.46,4.64,72.3,49.1
+ORD-0031,2025-06-14,Laptop,Electronics,Central,Consumer,2,761.32,483.33,1522.64,555.98
+ORD-0032,2025-03-24,Phone,Electronics,Central,Corporate,4,427.7,308.41,1710.8,477.16
+ORD-0033,2025-02-03,Notebook,Office Supplies,North,Corporate,4,6.7,1.94,26.8,19.04
+ORD-0034,2025-07-22,Pen Set,Office Supplies,West,Consumer,3,15.61,4.72,46.83,32.67
+ORD-0035,2025-11-21,Desk,Furniture,East,Consumer,8,236.55,160.05,1892.4,612.0
+ORD-0036,2025-01-24,Headphones,Electronics,East,Consumer,5,87.78,38.82,438.9,244.8
+ORD-0037,2025-11-10,Desk,Furniture,South,Consumer,7,267.04,165.02,1869.28,714.14
+ORD-0038,2025-10-30,Desk,Furniture,East,Corporate,4,243.46,171.97,973.84,285.96
+ORD-0039,2025-04-12,Pen Set,Office Supplies,West,Corporate,5,14.6,4.85,73.0,48.75
+ORD-0040,2025-08-19,Notebook,Office Supplies,East,Consumer,2,6.22,1.96,12.44,8.52
+ORD-0041,2025-03-02,Pen Set,Office Supplies,Central,Consumer,5,15.54,5.0,77.7,52.7
+ORD-0042,2025-10-04,Backpack,Accessories,South,Consumer,2,52.29,23.98,104.58,56.62
+ORD-0043,2025-09-13,Laptop,Electronics,Central,Consumer,7,643.6,492.1,4505.2,1060.5
+ORD-0044,2025-05-10,Phone,Electronics,South,Corporate,6,458.24,272.09,2749.44,1116.9
+ORD-0045,2025-01-25,Monitor,Electronics,South,Consumer,4,220.42,167.66,881.68,211.04
+ORD-0046,2025-12-21,Desk,Furniture,Central,Consumer,5,293.51,177.4,1467.55,580.55
+ORD-0047,2025-06-12,Pen Set,Office Supplies,West,Consumer,2,13.68,5.11,27.36,17.14
+ORD-0048,2025-11-22,Phone,Electronics,East,Corporate,7,396.0,279.23,2772.0,817.39
+ORD-0049,2025-09-05,Desk Lamp,Furniture,East,Consumer,8,34.87,16.18,278.96,149.52
+ORD-0050,2025-10-12,Office Chair,Furniture,South,Consumer,7,166.5,116.58,1165.5,349.44
+ORD-0051,2025-10-05,Office Chair,Furniture,North,Consumer,8,171.17,119.3,1369.36,414.96
+ORD-0052,2025-03-13,Phone,Electronics,South,Consumer,2,431.1,299.08,862.2,264.04
+ORD-0053,2025-05-13,Laptop,Electronics,South,Corporate,3,785.45,521.23,2356.35,792.66
+ORD-0054,2025-06-20,Pen Set,Office Supplies,West,Consumer,7,12.52,4.89,87.64,53.41
+ORD-0055,2025-07-01,Headphones,Electronics,Central,Small Business,8,85.05,39.63,680.4,363.36
+ORD-0056,2025-01-16,Office Chair,Furniture,Central,Consumer,4,189.95,118.28,759.8,286.68
+ORD-0057,2025-07-19,Office Chair,Furniture,East,Small Business,7,167.66,110.18,1173.62,402.36
+ORD-0058,2025-02-26,Notebook,Office Supplies,North,Consumer,4,5.79,1.9,23.16,15.56
+ORD-0059,2025-09-29,Desk Lamp,Furniture,East,Consumer,6,30.62,15.24,183.72,92.28
+ORD-0060,2025-09-07,Headphones,Electronics,West,Corporate,2,88.27,40.93,176.54,94.68
+ORD-0061,2025-12-03,Office Chair,Furniture,West,Small Business,8,204.58,115.95,1636.64,709.04
+ORD-0062,2025-09-29,Backpack,Accessories,Central,Consumer,4,43.61,24.89,174.44,74.88
+ORD-0063,2025-05-14,Notebook,Office Supplies,West,Consumer,8,6.73,2.16,53.84,36.56
+ORD-0064,2025-12-20,Pen Set,Office Supplies,West,Consumer,8,13.53,4.7,108.24,70.64
+ORD-0065,2025-05-30,Backpack,Accessories,East,Small Business,8,54.07,23.87,432.56,241.6
+ORD-0066,2025-04-29,Desk,Furniture,West,Corporate,1,234.31,171.51,234.31,62.8
+ORD-0067,2025-11-27,Desk Lamp,Furniture,Central,Consumer,4,28.46,14.69,113.84,55.08
+ORD-0068,2025-05-16,Phone,Electronics,West,Small Business,8,455.08,307.92,3640.64,1177.28
+ORD-0069,2025-01-28,Pen Set,Office Supplies,Central,Corporate,4,12.49,4.79,49.96,30.8
+ORD-0070,2025-06-21,Monitor,Electronics,North,Consumer,4,242.08,169.68,968.32,289.6
+ORD-0071,2025-10-18,Desk,Furniture,Central,Small Business,6,272.45,162.86,1634.7,657.54
+ORD-0072,2025-03-11,Headphones,Electronics,Central,Consumer,7,81.15,38.55,568.05,298.2
+ORD-0073,2025-06-18,Headphones,Electronics,Central,Consumer,5,78.79,35.48,393.95,216.55
+ORD-0074,2025-02-17,Pen Set,Office Supplies,Central,Consumer,4,15.82,4.84,63.28,43.92
+ORD-0075,2025-09-08,Phone,Electronics,East,Corporate,1,485.64,304.48,485.64,181.16
+ORD-0076,2025-06-23,Desk,Furniture,Central,Consumer,4,261.1,160.05,1044.4,404.2
+ORD-0077,2025-05-01,Laptop,Electronics,South,Corporate,3,636.78,506.19,1910.34,391.77
+ORD-0078,2025-03-24,Headphones,Electronics,East,Consumer,4,95.18,39.53,380.72,222.6
+ORD-0079,2025-07-26,Headphones,Electronics,Central,Small Business,3,79.8,36.94,239.4,128.58
+ORD-0080,2025-09-02,Office Chair,Furniture,West,Consumer,8,190.12,114.75,1520.96,602.96
+ORD-0081,2025-12-10,Headphones,Electronics,South,Consumer,3,78.1,40.28,234.3,113.46
+ORD-0082,2025-06-09,Notebook,Office Supplies,West,Consumer,3,6.46,1.98,19.38,13.44
+ORD-0083,2025-02-28,Desk Lamp,Furniture,West,Corporate,5,34.68,15.97,173.4,93.55
+ORD-0084,2025-10-31,Phone,Electronics,East,Small Business,2,389.35,302.22,778.7,174.26
+ORD-0085,2025-08-18,Office Chair,Furniture,East,Consumer,8,164.46,120.24,1315.68,353.76
+ORD-0086,2025-09-13,Laptop,Electronics,South,Consumer,1,645.4,506.34,645.4,139.06
+ORD-0087,2025-02-05,Headphones,Electronics,North,Consumer,1,77.17,37.3,77.17,39.87
+ORD-0088,2025-04-25,Pen Set,Office Supplies,South,Consumer,4,13.38,4.92,53.52,33.84
+ORD-0089,2025-10-08,Phone ,Electronics,North,Consumer,3,788.9,469.3,2366.7,958.8
+ORD-0090,2025-10-31,Office Chair,Furniture,South,Corporate,1,182.75,117.03,182.75,65.72
+ORD-0091,2025-06-08,Headphones,Electronics,South,Corporate,2,79.95,37.88,159.9,84.14
+ORD-0092,2025-10-21,Phone,Electronics,South,Consumer,6,478.42,273.69,2870.52,1228.38
+ORD-0093,2025-11-04,Pen Set,Office Supplies,North,Small Business,2,12.49,4.71,24.98,15.56
+ORD-0094,2025-05-22,Laptop,Electronics,North,Corporate,8,639.23,478.23,5113.84,1288.0
+ORD-0095,2025-11-24,Headphones,Electronics,East,Consumer,1,87.34,40.12,87.34,47.22
+ORD-0096,2025-04-16,Monitor,Electronics,West,Small Business,5,220.96,172.21,1104.8,243.75
+ORD-0097,2025-03-29,Headphones,Electronics,Central,Small Business,2,84.46,38.63,168.92,91.66
+ORD-0098,2025-09-07,Desk,Furniture,Central,Corporate,6,249.5,178.14,1497.0,428.16
+ORD-0099,2025-08-21,Phone,Electronics,East,Consumer,5,412.55,275.09,2062.75,687.3
+ORD-0100,2025-02-21,Headphones,Electronics,North,Corporate,4,78.32,39.37,313.28,155.8
+ORD-0101,2025-10-31,Pen Set,Office Supplies,South,Consumer,7,15.44,5.08,108.08,72.52
+ORD-0102,2025-03-14,Phone,Electronics,West,Small Business,6,396.99,295.34,2381.94,609.9
+ORD-0103,2025-10-21,Laptop,Electronics,North,Consumer,8,812.36,516.91,6498.88,2363.6
+ORD-0104,2025-01-03,Monitor,Electronics,Central,Consumer,1,243.37,168.22,243.37,75.15
+ORD-0105,2025-10-18,Laptop,Electronics,East,Corporate,4,686.66,523.35,2746.64,653.24
+ORD-0106,2025-10-15,Laptop,Electronics,East,Consumer,1,675.23,540.51,675.23,134.72
+ORD-0107,2025-10-12,Notebook,Office Supplies,East,Corporate,2,5.87,2.06,11.74,7.62
+ORD-0108,2025-08-31,Notebook,Office Supplies,West,Consumer,3,6.76,1.97,20.28,14.37
+ORD-0109,2025-06-22,Laptop,Electronics,West,Consumer,1,727.24,502.49,727.24,224.75
+ORD-0110,2025-09-15,Monitor,Electronics,South,Small Business,6,252.15,155.74,1512.9,578.46
+ORD-0111,2025-04-12,Phone,Electronics,North,Consumer,6,470.74,314.47,2824.44,937.62
+ORD-0112,2025-10-12,Office Chair,Furniture,West,Consumer,8,203.42,109.83,1627.36,748.72
+ORD-0113,2025-07-22,Pen Set,Office Supplies,West,Consumer,6,15.06,5.06,90.36,60.0
+ORD-0114,2025-06-17,Monitor,Electronics,Central,Consumer,6,259.09,154.44,1554.54,627.9
+ORD-0115,2025-07-04,Pen Set,Office Supplies,North,Corporate,4,15.75,4.9,63.0,43.4
+ORD-0116,2025-07-27,Monitor,Electronics,South,Corporate,6,230.35,167.87,1382.1,374.88
+ORD-0117,2025-01-14,Desk,Furniture,West,Consumer,1,289.6,169.12,289.6,120.48
+ORD-0118,2025-02-21,Desk,Furniture,South,Corporate,3,237.32,160.83,711.96,229.47
+ORD-0119,2025-03-31,Headphones,Electronics,Central,Corporate,1,79.98,35.56,79.98,44.42
+ORD-0120,2025-02-11,Monitor,Electronics,South,Consumer,3,223.33,156.7,669.99,199.89
+ORD-0121,2025-06-10,Office Chair,Furniture,South,Small Business,4,164.89,111.67,659.56,212.88
+ORD-0122,2025-09-01,Notebook,Office Supplies,East,Consumer,6,5.45,1.92,32.7,21.18
+ORD-0123,2025-08-27,Backpack,Accessories,Central,Small Business,3,53.06,25.86,159.18,81.6
+ORD-0124,2025-06-21,Desk Lamp,Furniture,North,Corporate,5,29.26,14.53,146.3,73.65
+ORD-0125,2025-11-09,Laptop,Electronics,Central,Consumer,7,744.62,513.46,5212.34,1618.12
+ORD-0126,2025-07-26,Headphones,Electronics,North,Corporate,4,92.9,38.51,371.6,217.56
+ORD-0127,2025-01-29,Headphones,Electronics,South,Corporate,7,83.4,39.58,583.8,306.74
+ORD-0128,2025-10-07,Phone,Electronics,Central,Consumer,5,391.37,313.7,1956.85,388.35
+ORD-0129,2025-07-29,Headphones,Electronics,Central,Consumer,2,78.61,37.47,157.22,82.28
+ORD-0130,2025-08-20,Headphones,Electronics,West,Consumer,8,92.89,40.28,743.12,420.88
+ORD-0131,2025-07-26,Office Chair,Furniture,South,Small Business,6,174.12,105.93,1044.72,409.14
+ORD-0132,2025-07-22,Monitor,Electronics,West,Consumer,1,242.26,164.75,242.26,77.51
+ORD-0133,2025-02-03,Office Chair,Furniture,East,Small Business,7,168.89,105.29,1182.23,445.2
+ORD-0134,2025-07-24,Office Chair,Furniture,Central,Consumer,7,170.37,112.98,1192.59,401.73
+ORD-0135,2025-10-18,Headphones,Electronics,North,Consumer,7,77.33,40.53,541.31,257.6
+ORD-0136,2025-04-21,Notebook,Office Supplies,East,Consumer,1,5.88,2.01,5.88,3.87
+ORD-0137,2025-08-09,Desk Lamp,Furniture,Central,Consumer,2,34.09,14.93,68.18,38.32
+ORD-0138,2025-01-12,Desk Lamp,Furniture,South,Corporate,6,28.56,14.62,171.36,83.64
+ORD-0139,2025-05-07,Notebook,Office Supplies,West,Small Business,1,6.47,1.91,6.47,4.56
+ORD-0140,2025-06-09,Desk,Furniture,West,Consumer,3,228.95,183.42,686.85,136.59
+ORD-0141,2025-12-25,Laptop,Electronics,East,Corporate,4,656.83,481.63,2627.32,700.8
+ORD-0142,2025-03-20,Desk,Furniture,Central,Consumer,2,249.55,176.15,499.1,146.8
+ORD-0143,2025-04-11,Notebook,Office Supplies,East,Consumer,6,5.99,2.14,35.94,23.1
+ORD-0144,2025-05-30,Phone,Electronics,West,Consumer,1,469.35,273.3,469.35,196.05
+ORD-0145,2025-12-29,Monitor,Electronics,West,Corporate,6,270.71,165.83,1624.26,629.28
+ORD-0146,2025-11-08,Headphones,Electronics,Central,Consumer,3,82.58,39.45,247.74,129.39
+ORD-0147,2025-01-13,Notebook,Office Supplies,West,Consumer,2,6.04,2.13,12.08,7.82
+ORD-0148,2025-03-27,Notebook,Office Supplies,South,Consumer,4,5.89,1.98,23.56,15.64
+ORD-0149,2025-10-27,Laptop,Electronics,West,Consumer,3,751.59,523.29,2254.77,684.9
+ORD-0150,2025-01-22,Headphones,Electronics,North,Consumer,7,91.34,40.19,639.38,358.05
+ORD-0151,2025-11-09,Pen Set,Office Supplies,North,Consumer,2,13.28,4.71,26.56,17.14
+ORD-0152,2025-04-13,Pen Set,Office Supplies,Central,Corporate,8,13.03,5.03,104.24,64.0
+ORD-0153,2025-12-01,Desk Lamp,Furniture,West,Consumer,5,30.2,15.3,151.0,74.5
+ORD-0154,2025-04-18,Desk Lamp,Furniture,South,Consumer,5,33.64,13.86,168.2,98.9
+ORD-0155,2025-06-08,Monitor,Electronics,West,Small Business,8,237.84,176.51,1902.72,490.64
+ORD-0156,2025-08-30,Headphones,Electronics,East,Consumer,7,85.21,38.8,596.47,324.87
+ORD-0157,2025-02-16,Headphones,Electronics,Central,Small Business,4,94.43,40.09,377.72,217.36
+ORD-0158,2025-07-23,Pen Set,Office Supplies,West,Consumer,8,14.99,4.98,119.92,80.08
+ORD-0159,2025-07-04,Headphones,Electronics,West,Corporate,5,80.95,36.53,404.75,222.1
+ORD-0160,2025-10-14,Desk,Furniture,South,Consumer,3,281.84,179.81,845.52,306.09
+ORD-0161,2025-12-30,Laptop,Electronics,South,Consumer,1,777.15,537.68,777.15,239.47
+ORD-0162,2025-08-31,Backpack,Accessories,North,Consumer,5,46.92,25.91,234.6,105.05
+ORD-0163,2025-05-30,Phone,Electronics,East,Small Business,1,445.01,315.43,445.01,129.58
+ORD-0164,2025-05-29,Laptop,Electronics,North,Small Business,8,775.93,491.28,6207.44,2277.2
+ORD-0165,2025-06-02,Pen Set,Office Supplies,North,Consumer,4,15.23,4.74,60.92,41.96
+ORD-0166,2025-10-25,Notebook,Office Supplies,East,Small Business,2,6.31,2.05,12.62,8.52
+ORD-0167,2025-04-28,Desk Lamp,Furniture,East,Small Business,1,28.92,15.55,28.92,13.37
+ORD-0168,2025-03-02,Headphones,Electronics,East,Corporate,3,83.83,35.27,251.49,145.68
+ORD-0169,2025-05-03,Headphones,Electronics,West,Consumer,3,92.48,39.95,277.44,157.59
+ORD-0170,2025-01-09,Headphones,Electronics,West,Small Business,2,91.83,37.95,183.66,107.76
+ORD-0171,2025-02-08,Phone,Electronics,Central,Consumer,5,388.73,278.65,1943.65,550.4
+ORD-0172,2025-02-02,Laptop,Electronics,North,Corporate,5,633.69,504.8,3168.45,644.45
+ORD-0173,2025-10-09,Laptop,Electronics,West,Consumer,3,781.76,482.91,2345.28,896.55
+ORD-0174,2025-09-21,Monitor,Electronics,Central,Consumer,3,243.54,173.43,730.62,210.33
+ORD-0175,2025-09-12,Desk,Furniture,West,Consumer,5,245.53,176.86,1227.65,343.35
+ORD-0176,2025-06-18,Pen Set,Office Supplies,East,Consumer,6,13.61,4.78,81.66,52.98
+ORD-0177,2025-09-19,Pen Set,Office Supplies,North,Consumer,8,12.62,4.74,100.96,63.04
+ORD-0178,2025-02-28,Backpack,Accessories,South,Corporate,1,54.12,22.61,54.12,31.51
+ORD-0179,2025-11-25,Office Chair,Furniture,South,Small Business,8,203.27,120.52,1626.16,662.0
+ORD-0180,2025-07-02,Phone,Electronics,South,Corporate,5,448.93,285.04,2244.65,819.45
+ORD-0181,2025-12-09,Notebook,Office Supplies,East,Consumer,6,6.52,2.07,39.12,26.7
+ORD-0182,2025-02-25,Laptop,Electronics,West,Consumer,8,721.11,490.43,5768.88,1845.44
+ORD-0183,2025-07-01,Pen Set,Office Supplies,Central,Consumer,1,14.28,4.91,14.28,9.37
+ORD-0184,2025-09-12,Office Chair,Furniture,South,Consumer,2,188.89,115.17,377.78,147.44
+ORD-0185,2025-06-30,Laptop,Electronics,South,Consumer,1,794.61,521.94,794.61,272.67
+ORD-0186,2025-06-12,Monitor,Electronics,East,Consumer,1,239.77,176.5,239.77,63.27
+ORD-0187,2025-03-02,Phone,Electronics,East,Consumer,4,399.41,303.47,1597.64,383.76
+ORD-0188,2025-05-20,Laptop,Electronics,South,Consumer,4,709.69,483.57,2838.76,904.48
+ORD-0189,2025-03-29,Monitor,Electronics,South,Consumer,2,232.85,153.26,465.7,159.18
+ORD-0190,2025-04-21,Headphones,Electronics,West,Small Business,8,79.16,40.36,633.28,310.4
+ORD-0191,2025-09-07,Laptop,Electronics,North,Consumer,7,654.36,519.76,4580.52,942.2
+ORD-0192,2025-08-19,Monitor,Electronics,West,Small Business,8,260.39,165.69,2083.12,757.6
+ORD-0193,2025-08-10,Laptop,Electronics,East,Corporate,2,691.91,546.61,1383.82,290.6
+ORD-0194,2025-05-13,Backpack,Accessories,North,Consumer,8,53.98,23.99,431.84,239.92
+ORD-0195,2025-12-17,Desk Lamp,Furniture,South,Consumer,8,31.34,15.2,250.72,129.12
+ORD-0196,2025-02-01,Headphones,Electronics,North,Corporate,2,76.99,40.23,153.98,73.52
+ORD-0197,2025-05-06,Headphones,Electronics,East,Small Business,6,83.97,38.81,503.82,270.96
+ORD-0198,2025-02-13,Desk Lamp,Furniture,South,Corporate,6,30.79,14.88,184.74,95.46
+ORD-0199,2025-05-04,Office Chair,Furniture,West,Consumer,3,188.44,108.79,565.32,238.95
+ORD-0200,2025-12-18,Desk,Furniture,North,Consumer,5,239.59,176.07,1197.95,317.6
+ORD-0201,2025-05-14,Phone,Electronics,East,Corporate,7,459.62,283.55,3217.34,1232.49
+ORD-0202,2025-11-28,Desk Lamp,Furniture,East,Small Business,2,33.51,13.93,67.02,39.16
+ORD-0203,2025-06-30,Desk,Furniture,Central,Consumer,1,266.43,156.53,266.43,109.9
+ORD-0204,2025-09-13,Pen Set,Office Supplies,East,Small Business,8,12.41,5.19,99.28,57.76
+ORD-0205,2025-06-16,Office Chair,Furniture,East,Consumer,2,163.05,117.14,326.1,91.82
+ORD-0206,2025-04-08,Monitor,Electronics,South,Consumer,8,245.1,158.94,1960.8,689.28
+ORD-0207,2025-10-06,Backpack,Accessories,East,Small Business,2,48.68,25.79,97.36,45.78
+ORD-0208,2025-12-20,Monitor,Electronics,North,Consumer,7,246.86,174.98,1728.02,503.16
+ORD-0209,2025-04-07,Phone,Electronics,Central,Small Business,4,430.19,298.04,1720.76,528.6
+ORD-0210,2025-10-12,Notebook,Office Supplies,East,Consumer,8,5.83,1.97,46.64,30.88
+ORD-0211,2025-04-06,Backpack,Accessories,Central,Small Business,2,45.65,23.25,91.3,44.8
+ORD-0212,2025-09-19,Laptop,Electronics,East,consumer,8,717.06,525.51,5736.48,1532.4
+ORD-0213,2025-10-15,Pen Set,Office Supplies,South,Consumer,1,14.49,4.63,14.49,9.86
+ORD-0214,2025-06-14,Office Chair,Furniture,South,Consumer,8,169.26,106.42,1354.08,502.72
+ORD-0215,2025-09-26,Laptop,Electronics,Central,Small Business,5,706.5,535.21,3532.5,856.45
+ORD-0216,2025-04-10,Laptop,Electronics,West,Consumer,5,790.45,520.95,3952.25,1347.5
+ORD-0217,2025-01-29,Desk,Furniture,North,Small Business,3,263.55,183.42,790.65,240.39
+ORD-0218,2025-02-05,Laptop,Electronics,West,Consumer,2,687.92,542.88,1375.84,290.08
+ORD-0219,2025-06-13,Desk Lamp,Furniture,Central,Corporate,7,29.1,13.94,203.7,106.12
+ORD-0220,2025-11-26,Phone,Electronics,East,Consumer,6,476.84,298.18,2861.04,1071.96
+ORD-0221,2025-02-16,Office Chair,Furniture,North,Consumer,8,207.6,108.61,1660.8,791.92
+ORD-0222,2025-06-16,Headphones,Electronics,Central,Corporate,2,76.8,40.23,153.6,73.14
+ORD-0223,2025-09-14,Backpack,Accessories,Central,Consumer,2,52.35,25.7,104.7,53.3
+ORD-0224,2025-03-15,Backpack,Accessories,East,Small Business,3,48.76,25.53,146.28,69.69
+ORD-0225,2025-09-21,Pen Set,Office Supplies,East,Consumer,7,13.92,4.91,97.44,63.07
+ORD-0226,2025-04-22,Desk,Furniture,North,Consumer,1,233.83,177.61,233.83,56.22
+ORD-0227,2025-10-23,Desk Lamp,Furniture,West,Consumer,7,28.44,14.18,199.08,99.82
+ORD-0228,2025-07-31,Desk Lamp,Furniture,South,Small Business,7,32.29,16.05,226.03,113.68
+ORD-0229,2025-07-19,Phone,Electronics,North,Consumer,5,394.91,274.39,1974.55,602.6
+ORD-0230,2025-03-06,Notebook,Office Supplies,Central,Consumer,3,6.09,2.04,18.27,12.15
+ORD-0231,2025-06-19,Backpack,Accessories,West,Consumer,7,52.61,25.72,368.27,188.23
+ORD-0232,2025-11-09,Laptop,Electronics,South,Consumer,4,712.41,546.37,2849.64,664.16
+ORD-0233,2025-01-08,Backpack,Accessories,East,Corporate,1,44.43,23.31,44.43,21.12
+ORD-0234,2025-10-04,Pen Set,Office Supplies,East,Consumer,2,13.12,5.18,26.24,15.88
+ORD-0235,2025-06-29,Desk Lamp,Furniture,North,Consumer,7,29.02,14.99,203.14,98.21
+ORD-0236,2025-09-20,Office Chair,Furniture,East,Consumer,8,208.81,111.75,1670.48,776.48
+ORD-0237,2025-08-31,Desk,Furniture,North,Corporate,8,267.34,162.6,2138.72,837.92
+ORD-0238,2025-06-07,Laptop,Electronics,Central,Consumer,5,718.02,542.38,3590.1,878.2
+ORD-0239,2025-04-23,Laptop,Electronics,Central,Consumer,7,750.27,532.99,5251.89,1520.96
+ORD-0240,2025-08-17,Notebook,Office Supplies,Central,Corporate,2,6.23,1.95,12.46,8.56
+ORD-0241,2025-02-21,Pen Set,Office Supplies,Central,Corporate,8,13.62,4.94,108.96,69.44
+ORD-0242,2025-08-02,Office Chair,Furniture,West,Corporate,1,184.06,106.9,184.06,77.16
+ORD-0243,2025-02-04,Phone,Electronics,North,Small Business,4,445.78,306.67,1783.12,556.44
+ORD-0244,2025-08-26,Headphones,Electronics,North,Consumer,5,95.12,35.9,475.6,296.1
+ORD-0245,2025-08-18,Headphones,Electronics,East,Corporate,3,93.56,39.58,280.68,161.94
+ORD-0246,2025-01-31,Phone,Electronics,South,Consumer,7,429.83,278.36,3008.81,1060.29
+ORD-0247,2025-10-04,Headphones,Electronics,North,Consumer,4,86.49,39.25,345.96,188.96
+ORD-0248,2025-06-01,Office Chair,Furniture,West,Consumer,2,197.39,117.65,394.78,159.48
+ORD-0249,2025-10-15,Backpack,Accessories,South,Consumer,3,46.57,22.76,139.71,71.43
+ORD-0250,2025-01-16,Desk,Furniture,South,Consumer,6,277.67,164.94,1666.02,676.38
+ORD-0251,2025-03-07,Phone,Electronics,East,Consumer,1,410.97,288.83,410.97,122.14
+ORD-0252,2025-06-30,Backpack,Accessories,Central,Small Business,1,48.22,24.55,48.22,23.67
+ORD-0253,2025-03-10,Desk Lamp,Furniture,West,Corporate,4,35.28,15.98,141.12,77.2
+ORD-0254,2025-05-01,Office Chair,Furniture,North,Consumer,7,163.53,111.59,1144.71,363.58
+ORD-0255,2025-08-30,Desk,Furniture,East,Consumer,4,264.69,179.16,1058.76,342.12
+ORD-0256,2025-02-22,Phone,Electronics,West,Small Business,2,469.54,318.36,939.08,302.36
+ORD-0257,2025-09-05,Monitor,Electronics,South,Corporate,2,235.3,158.88,470.6,152.84
+ORD-0258,2025-02-07,Desk Lamp,Furniture,South,Consumer,4,32.62,14.51,130.48,72.44
+ORD-0259,2025-03-05,Phone,Electronics,North,Corporate,6,480.45,290.42,2882.7,1140.18
+ORD-0260,2025-08-03,Pen Set,Office Supplies,North,Consumer,6,12.93,5.25,77.58,46.08
+ORD-0261,2025-10-17,Monitor,Electronics,North,Consumer,7,251.86,173.3,1763.02,549.92
+ORD-0262,2025-03-04,Headphones,Electronics,Central,Consumer,3,80.42,37.57,241.26,128.55
+ORD-0263,2025-04-20,Headphones,Electronics,West,Corporate,7,91.2,37.26,638.4,377.58
+ORD-0264,2025-12-04,Phone,Electronics,North,Consumer,6,439.8,318.32,2638.8,728.88
+ORD-0265,2025-12-28,Phone,Electronics,East,Consumer,8,465.47,275.6,3723.76,1518.96
+ORD-0266,2025-08-01,Pen Set,Office Supplies,South,Consumer,2,12.98,4.76,25.96,16.44
+ORD-0267,2025-06-13,Office Chair,Furniture,Central,Small Business,6,192.5,115.41,1155.0,462.54
+ORD-0268,2025-05-07,Desk,Furniture,East,Corporate,6,288.82,163.09,1732.92,754.38
+ORD-0269,2025-08-12,Pen Set,Office Supplies,North,Consumer,8,13.96,4.76,111.68,73.6
+ORD-0270,2025-08-04,Office Chair,Furniture,South,Corporate,2,199.62,119.3,399.24,160.64
+ORD-0271,2025-04-18,Headphones,Electronics,South,Small Business,5,80.21,35.78,401.05,222.15
+ORD-0272,2025-01-09,Desk,Furniture,South,Consumer,8,283.83,167.26,2270.64,932.56
+ORD-0273,2025-02-25,Phone,Electronics,West,Small Business,7,462.56,281.36,3237.92,1268.4
+ORD-0274,2025-12-16,Monitor,Electronics,Central,Small Business,2,224.86,153.13,449.72,143.46
+ORD-0275,2025-06-02,Headphones,Electronics,West,Corporate,1,90.95,35.74,90.95,55.21
+ORD-0276,2025-06-26,Desk Lamp,Furniture,West,Consumer,1,31.69,15.9,31.69,15.79
+ORD-0277,2025-06-20,Pen Set,Office Supplies,Central,Consumer,1,14.94,4.83,14.94,10.11
+ORD-0278,2025-10-13,Phone,Electronics,East,Consumer,3,432.72,298.9,1298.16,401.46
+ORD-0279,2025-01-24,Backpack,Accessories,Central,Corporate,8,45.2,24.91,361.6,162.32
+ORD-0280,2025-01-31,Office Chair,Furniture,North,Corporate,7,199.58,120.25,1397.06,555.31
+ORD-0281,2025-04-11,Monitor,Electronics,Central,Consumer,2,232.32,168.65,464.64,127.34
+ORD-0282,2025-06-27,Desk Lamp,Furniture,North,Consumer,2,31.46,15.9,62.92,31.12
+ORD-0283,2025-09-02,Backpack,Accessories,South,Consumer,5,54.0,25.47,270.0,142.65
+ORD-0284,2025-06-29,Backpack,Accessories,South,Corporate,2,49.52,24.61,99.04,49.82
+ORD-0285,2025-06-11,Laptop,Electronics,South,Consumer,4,761.75,515.18,3047.0,986.28
+ORD-0286,2025-12-09,Laptop,Electronics,South,Consumer,4,789.32,471.72,3157.28,1270.4
+ORD-0287,2025-02-28,Desk Lamp,Furniture,North,Small Business,7,34.16,14.42,239.12,138.18
+ORD-0288,2025-07-28,Pen Set,Office Supplies,Central,Corporate,6,13.08,5.03,78.48,48.3
+ORD-0289,2025-07-17,Headphones,Electronics,South,Corporate,7,75.38,40.79,527.66,242.13
+ORD-0290,2025-06-22,Notebook,Office Supplies,West,Consumer,3,6.08,1.99,18.24,12.27
+ORD-0291,2025-10-22,Notebook,Office Supplies,South,Consumer,3,6.61,2.1,19.83,13.53
+ORD-0292,2025-04-08,Notebook,Office Supplies,North,Small Business,2,6.74,2.13,13.48,9.22
+ORD-0293,2025-12-15,Headphones,Electronics,North,Consumer,7,79.3,35.51,555.1,306.53
+ORD-0294,2025-05-02,Laptop,Electronics,Central,Corporate,1,646.93,480.02,646.93,166.91
+ORD-0295,2025-07-18,Notebook,Office Supplies,West,Corporate,1,6.23,2.12,6.23,4.11
+ORD-0296,2025-07-10,Office Chair,Furniture,West,Consumer,8,183.49,109.24,1467.92,594.0
+ORD-0297,2025-11-07,Phone,Electronics,West,Consumer,4,406.43,278.65,1625.72,511.12
+ORD-0298,2025-06-10,Monitor,Electronics,South,Consumer,6,252.36,174.41,1514.16,467.7
+ORD-0299,2025-04-14,Backpack,Accessories,South,Small Business,2,44.84,24.73,89.68,40.22
+ORD-0300,2025-01-08,Headphones,Electronics,East,Corporate,8,80.96,38.33,647.68,341.04
+ORD-0301,2025-05-13,Notebook,Office Supplies,West,Corporate,2,5.48,2.06,10.96,6.84
+ORD-0302,2025-10-29,Pen Set,Office Supplies,North,Consumer,5,13.88,4.93,69.4,44.75
+ORD-0303,2025-01-04,Phone,Electronics,East,Corporate,3,458.26,282.59,1374.78,527.01
+ORD-0304,2025-11-24,Notebook,Office Supplies,West,Corporate,1,5.99,2.0,5.99,3.99
+ORD-0305,2025-07-18,Desk Lamp,Furniture,East,Corporate,8,32.39,15.24,259.12,137.2
+ORD-0306,2025-02-21,Laptop,Electronics,East,Consumer,4,720.29,544.41,2881.16,703.52
+ORD-0307,2025-04-21,Office Chair,Furniture,Central,Consumer,8,183.64,106.28,1469.12,618.88
+ORD-0308,2025-07-22,Laptop,Electronics,North,Corporate,5,711.35,531.97,3556.75,896.9
+ORD-0309,2025-04-26,Laptop,Electronics,East,Consumer,2,661.37,545.99,1322.74,230.76
+ORD-0310,2025-02-09,Notebook,Office Supplies,South,Corporate,2,6.24,1.97,12.48,8.54
+ORD-0311,2025-09-01,Phone,Electronics,Central,Corporate,2,432.17,307.09,864.34,250.16
+ORD-0312,2025-09-03,Desk Lamp,Furniture,South,Consumer,7,30.46,14.4,213.22,112.42
+ORD-0313,2025-02-13,Notebook,Office Supplies,Central,Corporate,7,6.77,2.01,47.39,33.32
+ORD-0314,2025-04-13,Monitor,Electronics,Central,Corporate,4,223.43,165.75,893.72,230.72
+ORD-0315,2025-03-31,Headphones,Electronics,East,Small Business,8,95.74,40.95,765.92,438.32
+ORD-0316,2025-08-29,Backpack,Accessories,South,Corporate,8,46.09,24.18,368.72,175.28
+ORD-0317,2025-09-24,Office Chair,Furniture,West,Consumer,5,181.68,116.47,908.4,326.05
+ORD-0318,2025-09-23,Headphones,Electronics,North,Consumer,5,78.81,40.13,394.05,193.4
+ORD-0319,2025-12-09,Phone,Electronics,West,Consumer,1,437.95,272.4,437.95,165.55
+ORD-0320,2025-10-08,Phone,Electronics,West,Consumer,3,407.97,274.47,1223.91,400.5
+ORD-0321,2025-04-28,Notebook,Office Supplies,North,Corporate,7,6.55,1.89,45.85,32.62
+ORD-0322,2025-02-09,Office Chair,Furniture,East,Small Business,6,166.12,117.43,996.72,292.14
+ORD-0323,2025-08-13,Laptop,Electronics,North,Consumer,5,796.3,514.04,3981.5,1411.3
+ORD-0324,2025-12-01,Phone,Electronics,West,Small Business,7,456.32,299.69,3194.24,1096.41
+ORD-0325,2025-12-22,Office Chair,Furniture,South,Consumer,5,184.87,109.49,924.35,376.9
+ORD-0326,2025-03-26,Laptop,Electronics,South,Consumer,1,761.65,470.7,761.65,290.95
+ORD-0327,2025-03-28,Notebook,Office Supplies,West,Corporate,2,6.44,2.1,12.88,8.68
+ORD-0328,2025-01-14,Phone,Electronics,East,Consumer,7,443.27,282.99,3102.89,1121.96
+ORD-0329,2025-02-21,Phone,Electronics,East,Corporate,5,422.9,279.74,2114.5,715.8
+ORD-0330,2025-07-22,Desk Lamp,Furniture,South,Small Business,4,35.6,13.84,142.4,87.04
+ORD-0331,2025-07-19,Desk Lamp,Furniture,North,Small Business,5,34.26,16.13,171.3,90.65
+ORD-0332,2025-05-16,Desk Lamp,Furniture,East,Corporate,2,28.79,15.84,57.58,25.9
+ORD-0333,2025-04-24,Notebook,Office Supplies,East,Corporate,4,6.14,1.89,24.56,17.0
+ORD-0334,2025-10-30,Laptop,Electronics,West,Consumer,6,786.42,507.75,4718.52,1672.02
+ORD-0335,2025-06-17,Headphones,Electronics,Central,Consumer,8,90.38,37.2,723.04,425.44
+ORD-0336,2025-10-23,Phone,Electronics,East,Consumer,6,479.73,306.05,2878.38,1042.08
+ORD-0337,2025-12-18,Monitor,Electronics,South,Corporate,6,262.3,158.18,1573.8,624.72
+ORD-0338,2025-04-26,Desk Lamp,Furniture,South,Consumer,1,33.7,16.17,33.7,17.53
+ORD-0339,2025-03-15,Laptop,Electronics,West,Consumer,6,694.75,475.01,4168.5,1318.44
+ORD-0340,2025-12-14,Pen Set,Office Supplies,South,Consumer,2,13.49,5.28,26.98,16.42
+ORD-0341,2025-08-20,Monitor,Electronics,East,Consumer,1,268.38,168.98,268.38,99.4
+ORD-0342,2025-04-17,Monitor,Electronics,East,Corporate,6,219.7,155.83,1318.2,383.22
+ORD-0343,2025-08-15,Laptop,Electronics,South,Consumer,5,658.76,505.19,3293.8,767.85
+ORD-0344,2025-07-07,Office Chair,Furniture,South,Consumer,3,164.28,114.05,492.84,150.69
+ORD-0345,2025-11-27,Notebook,Office Supplies,North,Consumer,7,5.3,1.92,37.1,23.66
+ORD-0346,2025-04-04,Desk,Furniture,Central,Corporate,7,253.36,170.83,1773.52,577.71
+ORD-0347,2025-12-28,Laptop,Electronics,East,Consumer,6,695.67,503.58,4174.02,1152.54
+ORD-0348,2025-12-08,Backpack,Accessories,Central,Corporate,7,42.51,24.39,297.57,126.84
+ORD-0349,2025-03-07,Headphones,Electronics,West,Small Business,7,88.24,40.61,617.68,333.41
+ORD-0350,2025-03-02,Laptop,Electronics,East,Consumer,3,732.06,481.17,2196.18,752.67
+ORD-0351,2025-07-14,Desk Lamp,Furniture,North,Consumer,2,31.78,15.82,63.56,31.92
+ORD-0352,2025-01-17,Office Chair,Furniture,Central,Consumer,2,184.76,105.39,369.52,158.74
+ORD-0353,2025-04-20,Desk Lamp,Furniture,South,Consumer,8,32.19,14.02,257.52,145.36
+ORD-0354,2025-06-08,Desk Lamp,Furniture,East,Consumer,6,35.93,14.42,215.58,129.06
+ORD-0355,2025-12-20,Monitor,Electronics,East,Consumer,2,227.97,174.38,455.94,107.18
+ORD-0356,2025-12-29,Office Chair,Furniture,Central,Consumer,8,171.42,108.44,1371.36,503.84
+ORD-0357,2025-02-25,Desk,Furniture,South,Corporate,5,273.0,161.33,1365.0,558.35
+ORD-0358,2025-11-22,Headphones,Electronics,South,Consumer,5,82.21,39.32,411.05,214.45
+ORD-0359,2025-02-03,Desk,Furniture,Central,Small Business,1,265.98,162.22,265.98,103.76
+ORD-0360,2025-10-01,Headphones,Electronics,North,Consumer,6,85.31,35.71,511.86,297.6
+ORD-0361,2025-11-05,Pen Set,Office Supplies,North,Corporate,3,15.14,5.35,45.42,29.37
+ORD-0362,2025-11-22,Pen Set,Office Supplies,West,Consumer,4,15.79,4.87,63.16,43.68
+ORD-0363,2025-03-23,Office Chair,Furniture,East,Consumer,7,171.03,114.03,1197.21,399.0
+ORD-0364,2025-11-23,Desk Lamp,Furniture,South,Consumer,5,28.48,14.06,142.4,72.1
+ORD-0365,2025-02-12,Headphones,Electronics,North,Consumer,7,80.74,36.13,565.18,312.27
+ORD-0366,2025-07-09,Desk,Furniture,South,Consumer,8,250.12,158.84,2000.96,730.24
+ORD-0367,2025-06-21,Phone,Electronics,West,Consumer,3,484.91,315.23,1454.73,509.04
+ORD-0368,2025-04-26,Office Chair,Furniture,South,Corporate,8,198.59,116.74,1588.72,654.8
+ORD-0369,2025-01-09,Monitor,Electronics,East,Consumer,2,257.21,173.09,514.42,168.24
+ORD-0370,2025-10-09,Desk Lamp,Furniture,North,Consumer,4,36.11,15.65,144.44,81.84
+ORD-0371,2025-05-03,Notebook,Office Supplies,North,Corporate,2,6.44,2.1,12.88,8.68
+ORD-0372,2025-08-30,Monitor,Electronics,North,Consumer,3,227.76,162.73,683.28,195.09
+ORD-0373,2025-05-30,Office Chair,Furniture,South,Small Business,4,180.96,110.66,723.84,281.2
+ORD-0374,2025-05-17,Headphones,Electronics,Central,Consumer,7,83.85,36.95,586.95,328.3
+ORD-0375,2025-11-20,Desk,Furniture,South,Consumer,4,261.47,160.53,1045.88,403.76
+ORD-0376,2025-02-04,Notebook,Office Supplies,East,Small Business,5,6.52,1.92,32.6,23.0
+ORD-0377,2025-09-26,Backpack,Accessories,Central,Consumer,4,52.3,22.63,209.2,118.68
+ORD-0378,2025-09-30,Phone,Electronics,Central,Small Business,2,441.2,283.83,882.4,314.74
+ORD-0379,2025-05-19,Phone,Electronics,East,Corporate,3,455.91,274.18,1367.73,545.19
+ORD-0380,2025-04-06,Backpack,Accessories,North,Corporate,1,48.39,23.07,48.39,25.32
+ORD-0381,2025-01-02,Phone,Electronics,Central,Consumer,4,474.58,280.18,1898.32,777.6
+ORD-0382,2025-12-08,Notebook,Office Supplies,West,Consumer,3,5.94,1.89,17.82,12.15
+ORD-0383,2025-12-12,Desk Lamp,Furniture,East,Small Business,7,35.14,14.96,245.98,141.26
+ORD-0384,2025-03-29,Laptop,Electronics,North,Consumer,8,800.93,546.52,6407.44,2035.28
+ORD-0385,2025-01-12,Headphones,Electronics,East,Small Business,6,83.64,36.12,501.84,285.12
+ORD-0386,2025-02-14,Headphones,Electronics,West,Corporate,4,76.23,35.2,304.92,164.12
+ORD-0387,2025-01-25,Headphones,Electronics,West,Corporate,5,76.8,40.74,384.0,180.3
+ORD-0388,2025-10-31,Monitor,Electronics,North,Consumer,4,230.41,161.52,921.64,275.56
+ORD-0389,2025-11-22,Headphones,Electronics,North,Consumer,7,82.64,36.51,578.48,322.91
+ORD-0390,2025-02-25,Phone,Electronics,South,Consumer,6,445.8,289.72,2674.8,936.48
+ORD-0391,2025-09-30,Office Chair,Furniture,West,Small Business,8,180.32,113.57,1442.56,534.0
+ORD-0392,2025-03-07,Office Chair,Furniture,Central,Consumer,1,199.51,104.09,199.51,95.42
+ORD-0393,2025-05-15,Pen Set,Office Supplies,Central,Corporate,5,13.92,4.67,69.6,46.25
+ORD-0394,2025-08-07,Phone,Electronics,West,Small Business,6,432.98,305.55,2597.88,764.58
+ORD-0395,2025-09-20,Notebook,Office Supplies,West,Small Business,8,6.41,2.11,51.28,34.4
+ORD-0396,2025-11-16,Laptop,Electronics,East,Corporate,1,672.53,539.4,672.53,133.13
+ORD-0397,2025-01-17,Desk,Furniture,North,Consumer,1,250.84,175.54,250.84,75.3
+ORD-0398,2025-03-13,Laptop,Electronics,Central,Consumer,4,771.16,485.5,3084.64,1142.64
+ORD-0399,2025-04-13,Desk Lamp,Furniture,West,Consumer,2,33.04,14.54,66.08,37.0
+ORD-0400,2025-04-24,Laptop,Electronics,West,Corporate,1,641.37,469.6,641.37,171.77
+ORD-0401,2025-12-31,Desk Lamp,Furniture,West,Consumer,3,31.93,14.97,95.79,50.88
+ORD-0402,2025-10-11,Headphones,Electronics,East,Small Business,7,83.96,38.6,587.72,317.52
+ORD-0403,2025-04-27,Desk Lamp,Furniture,North,Consumer,7,31.24,14.23,218.68,119.07
+ORD-0404,2025-12-21,Headphones,Electronics,North,Small Business,3,91.04,37.98,273.12,159.18
+ORD-0405,2025-07-02,Laptop,Electronics,North,Consumer,8,706.19,475.75,5649.52,1843.52
+ORD-0406,2025-07-02,Desk Lamp,Furniture,South,Consumer,3,29.74,15.18,89.22,43.68
+ORD-0407,2025-06-08,Notebook,Office Supplies,South,Consumer,2,6.52,1.88,13.04,9.28
+ORD-0408,2025-02-22,Pen Set,Office Supplies,Central,Consumer,2,13.61,5.05,27.22,17.12
+ORD-0409,2025-12-08,Phone,Electronics,North,Corporate,6,456.65,285.0,2739.9,1029.9
+ORD-0410,2025-01-06,Laptop,Electronics,Central,Consumer,8,784.0,476.46,6272.0,2460.32
+ORD-0411,2025-03-05,Laptop,Electronics,Central,Consumer,5,675.85,513.94,3379.25,809.55
+ORD-0412,2025-03-25,Backpack,Accessories,East,Consumer,8,48.25,25.88,386.0,178.96
+ORD-0413,2025-04-12,Backpack,Accessories,North,Corporate,8,47.97,25.48,383.76,179.92
+ORD-0414,2025-02-18,Pen Set,Office Supplies,South,Consumer,7,13.79,4.89,96.53,62.3
+ORD-0415,2025-01-07,Office Chair,Furniture,South,Consumer,4,176.93,107.54,707.72,277.56
+ORD-0416,2025-09-05,Phone,Electronics,Central,Corporate,7,443.13,277.71,3101.91,1157.94
+ORD-0417,2025-12-20,Monitor,Electronics,South,Consumer,1,220.24,152.03,220.24,68.21
+ORD-0418,2025-02-14,Backpack,Accessories,Central,Consumer,2,42.78,24.95,85.56,35.66
+ORD-0419,2025-04-19,Notebook,Office Supplies,West,Corporate,3,5.82,1.84,17.46,11.94
+ORD-0420,2025-07-04,Desk Lamp,Furniture,South,Corporate,8,29.68,14.1,237.44,124.64
+ORD-0421,2025-12-05,Notebook,Office Supplies,West,Corporate,2,6.41,2.13,12.82,8.56
+ORD-0422,2025-09-11,Headphones,Electronics,East,Small Business,5,81.12,36.97,405.6,220.75
+ORD-0423,2025-10-07,Pen Set,Office Supplies,Central,Consumer,8,13.78,5.03,110.24,70.0
+ORD-0424,2025-08-01,Phone,Electronics,South,Small Business,4,435.12,274.58,1740.48,642.16
+ORD-0425,2025-06-02,Phone,Electronics,North,Small Business,1,460.67,275.98,460.67,184.69
+ORD-0426,2025-03-14,Pen Set,Office Supplies,North,Corporate,1,14.74,5.11,14.74,9.63
+ORD-0427,2025-11-12,Backpack,Accessories,West,Corporate,8,49.27,23.32,394.16,207.6
+ORD-0428,2025-10-21,Desk Lamp,Furniture,East,Corporate,1,33.47,14.85,33.47,18.62
+ORD-0429,2025-01-10,Desk Lamp,Furniture,North,Consumer,4,29.78,15.09,119.12,58.76
+ORD-0430,2025-09-19,Notebook,Office Supplies,North,Corporate,1,5.89,2.03,5.89,3.86
+ORD-0431,2025-01-31,Notebook,Office Supplies,West,Corporate,5,6.24,2.09,31.2,20.75
+ORD-0432,2025-09-27,Office Chair,Furniture,West,Consumer,1,167.48,107.93,167.48,59.55
+ORD-0433,2025-10-29,Monitor,Electronics,West,Consumer,5,216.62,167.44,1083.1,245.9
+ORD-0434,2025-02-17,Pen Set,Office Supplies,Central,Consumer,8,14.4,5.07,115.2,74.64
+ORD-0435,2025-06-08,Office Chair,Furniture,Central,Consumer,7,196.25,112.35,1373.75,587.3
+ORD-0436,2025-02-15,Laptop,Electronics,North,Small Business,7,668.34,499.67,4678.38,1180.69
+ORD-0437,2025-07-27,Office Chair,Furniture,South,Corporate,8,167.69,109.1,1341.52,468.72
+ORD-0438,2025-12-05,Desk,Furniture,West,Corporate,7,280.98,159.41,1966.86,850.99
+ORD-0439,2025-01-30,Desk Lamp,Furniture,East,Small Business,2,28.57,16.02,57.14,25.1
+ORD-0440,2025-05-26,Office Chair,Furniture,East,Consumer,8,172.59,117.72,1380.72,438.96
+ORD-0441,2025-12-22,Laptop,Electronics,West,Consumer,6,804.69,536.86,4828.14,1606.98
+ORD-0442,2025-04-20,Laptop,Electronics,Central,Corporate,5,802.27,512.65,4011.35,1448.1
+ORD-0443,2025-02-18,Office Chair,Furniture,East,Consumer,6,168.32,104.77,1009.92,381.3
+ORD-0444,2025-06-28,Backpack,Accessories,North,Consumer,3,44.96,24.19,134.88,62.31
+ORD-0445,2025-07-05,Phone,Electronics,East,Small Business,4,417.97,300.95,1671.88,468.08
+ORD-0446,2025-08-30,Phone,Electronics,Central,Corporate,8,475.42,310.53,3803.36,1319.12
+ORD-0447,2025-04-25,Notebook,Office Supplies,West,Small Business,5,6.32,1.85,31.6,22.35
+ORD-0448,2025-12-15,Notebook,Office Supplies,West,Consumer,2,5.85,1.84,11.7,8.02
+ORD-0449,2025-07-10,Office Chair,Furniture,East,Consumer,1,178.51,107.52,178.51,70.99
+ORD-0450,2025-04-15,Desk,Furniture,Central,Consumer,1,240.04,165.09,240.04,74.95
+ORD-0451,2025-12-17,Notebook,Office Supplies,East,Consumer,2,6.25,2.14,12.5,8.22
+ORD-0452,2025-12-04,Pen Set,Office Supplies,North,Consumer,8,13.24,4.97,105.92,66.16
+ORD-0453,2025-07-02,Notebook,Office Supplies,West,Corporate,5,6.4,2.01,32.0,21.95
+ORD-0454,2025-01-10,Desk,Furniture,North,Small Business,4,235.3,174.22,941.2,244.32
+ORD-0455,2025-08-06,Laptop,Electronics,East,Consumer,6,768.78,536.66,4612.68,1392.72
+ORD-0456,2025-07-22,Notebook,Office Supplies,West,Small Business,3,6.57,1.88,19.71,14.07
+ORD-0457,2025-02-24,Laptop,Electronics,Central,Consumer,3,647.41,485.08,1942.23,486.99
+ORD-0458,2025-08-20,Office Chair,Furniture,South,Consumer,7,170.48,111.12,1193.36,415.52
+ORD-0459,2025-11-03,Backpack,Accessories,Central,Consumer,6,50.07,22.56,300.42,165.06
+ORD-0460,2025-02-08,Monitor,Electronics,North,Small Business,4,235.61,176.68,942.44,235.72
+ORD-0461,2025-09-22,Desk,Furniture,West,Consumer,7,258.49,176.89,1809.43,571.2
+ORD-0462,2025-02-21,Phone,Electronics,West,Consumer,4,403.4,302.84,1613.6,402.24
+ORD-0463,2025-10-01,Monitor,Electronics,Central,Consumer,8,240.77,172.2,1926.16,548.56
+ORD-0464,2025-06-02,Office Chair,Furniture,North,Small Business,3,202.62,117.79,607.86,254.49
+ORD-0465,2025-01-03,Monitor,Electronics,Central,Corporate,8,224.9,176.4,1799.2,388.0
+ORD-0466,2025-12-19,Desk,Furniture,East,Consumer,6,251.07,164.25,1506.42,520.92
+ORD-0467,2025-03-02,Laptop,Electronics,East,Consumer,5,793.4,520.62,3967.0,1363.9
+ORD-0468,2025-08-06,Desk,Furniture,East,Consumer,2,242.4,178.78,484.8,127.24
+ORD-0469,2025-03-08,Pen Set,Office Supplies,West,Consumer,7,14.33,5.29,100.31,63.28
+ORD-0470,2025-12-07,Monitor,Electronics,West,Corporate,3,259.12,169.34,777.36,269.34
+ORD-0471,2025-09-27,Desk Lamp,Furniture,East,Consumer,2,34.67,15.59,69.34,38.16
+ORD-0472,2025-10-21,Desk Lamp,Furniture,South,Consumer,2,32.68,14.05,65.36,37.26
+ORD-0473,2025-06-07,Monitor,Electronics,South,Consumer,6,234.85,158.29,1409.1,459.36
+ORD-0474,2025-06-20,Backpack,Accessories,Central,Consumer,4,43.08,24.29,172.32,75.16
+ORD-0475,2025-08-20,Notebook,Office Supplies,East,Corporate,5,5.88,1.99,29.4,19.45
+ORD-0476,2025-10-14,Office Chair,Furniture,East,Consumer,1,200.62,116.4,200.62,84.22
+ORD-0477,2025-11-06,Backpack,Accessories,Central,Consumer,5,44.08,24.32,220.4,98.8
+ORD-0478,2025-01-07,Pen Set,Office Supplies,South,Consumer,3,14.67,4.8,44.01,29.61
+ORD-0479,2025-08-31,Desk Lamp,Furniture,South,Small Business,4,35.17,16.17,140.68,76.0
+ORD-0480,2025-02-09,Phone,Electronics,Central,Small Business,7,381.86,289.96,2673.02,643.3
+ORD-0481,2025-04-16,Pen Set,Office Supplies,East,Corporate,6,13.68,5.25,82.08,50.58
+ORD-0482,2025-10-30,Office Chair,Furniture,Central,Corporate,5,173.44,106.09,867.2,336.75
+ORD-0483,2025-04-02,Desk Lamp,Furniture,South,Small Business,1,30.16,14.13,30.16,16.03
+ORD-0484,2025-10-18,Phone,Electronics,East,Corporate,3,484.92,271.97,1454.76,638.85
+ORD-0485,2025-06-18,Office Chair,Furniture,Central,Consumer,8,179.23,110.39,1433.84,550.72
+ORD-0486,2025-03-26,Pen Set,Office Supplies,West,Small Business,7,12.8,4.91,89.6,55.23
+ORD-0487,2025-05-02,Laptop,Electronics,South,Consumer,6,733.51,496.46,4401.06,1422.3
+ORD-0488,2025-07-13,Office Chair,Furniture,North,Corporate,7,187.3,115.7,1311.1,501.2
+ORD-0489,2025-10-07,Laptop,Electronics,Central,Consumer,3,665.1,531.61,1995.3,400.47
+ORD-0490,2025-08-10,Backpack,Accessories,South,Consumer,2,44.48,23.99,88.96,40.98
+ORD-0491,2025-12-07,Phone,Electronics,West,Small Business,1,468.42,275.21,468.42,193.21
+ORD-0492,2025-11-13,Backpack,Accessories,Central,Consumer,8,50.62,24.67,404.96,207.6
+ORD-0493,2025-10-02,Notebook,Office Supplies,Central,Consumer,7,5.43,1.94,38.01,24.43
+ORD-0494,2025-08-09,Desk Lamp,Furniture,East,Small Business,5,33.56,15.82,167.8,88.7
+ORD-0495,2025-04-16,Phone,Electronics,West,Corporate,3,473.8,273.71,1421.4,600.27
+ORD-0496,2025-05-31,Headphones,Electronics,West,Consumer,6,85.72,36.54,514.32,295.08
+ORD-0497,2025-02-13,Phone,Electronics,North,Consumer,7,446.96,287.99,3128.72,1112.79
+ORD-0498,2025-05-17,Pen Set,Office Supplies,West,Consumer,2,14.21,5.35,28.42,17.72
+ORD-0499,2025-12-05,Backpack,Accessories,North,Corporate,6,51.12,25.88,306.72,151.44
+ORD-0500,2025-06-05,Notebook,Office Supplies,West,Corporate,5,5.81,2.06,29.05,18.75
+ORD-0501,2025-02-11,Desk Lamp,Furniture,East,Consumer,1,28.65,15.23,28.65,13.42
+ORD-0502,2025-08-26,Headphones,Electronics,South,Consumer,6,90.33,36.08,541.98,325.5
+ORD-0503,2025-12-18,Laptop,Electronics,Central,Consumer,2,758.43,472.46,1516.86,571.94
+ORD-0504,2025-11-13,Notebook,Office Supplies,South,Small Business,5,6.18,1.98,30.9,21.0
+ORD-0505,2025-04-11,Headphones,Electronics,West,Small Business,6,75.95,40.77,455.7,211.08
+ORD-0506,2025-06-15,Pen Set,Office Supplies,East,Corporate,1,13.09,5.25,13.09,7.84
+ORD-0507,2025-07-13,Phone,Electronics,East,Corporate,7,428.15,310.41,2997.05,824.18
+ORD-0508,2025-04-01,Notebook,Office Supplies,West,Consumer,8,5.69,1.96,45.52,29.84
+ORD-0509,2025-04-09,Backpack,Accessories,East,Consumer,4,47.5,23.02,190.0,97.92
+ORD-0510,2025-03-28,Notebook,Office Supplies,South,Consumer,8,5.38,2.09,43.04,26.32
+ORD-0511,2025-12-30,Desk,Furniture,East,Corporate,3,281.78,165.13,845.34,349.95
+ORD-0512,2025-09-30,Desk Lamp,Furniture,West,Consumer,4,31.61,15.59,126.44,64.08
+ORD-0513,2025-11-03,Desk,Furniture,East,Consumer,6,249.45,159.24,1496.7,541.26
+ORD-0514,2025-10-26,Phone,Electronics,East,Consumer,7,438.27,315.33,3067.89,860.58
+ORD-0515,2025-12-17,Notebook,Office Supplies,East,Consumer,8,5.31,1.92,42.48,27.12
+ORD-0516,2025-02-08,Phone,Electronics,South,Consumer,1,421.54,296.37,421.54,125.17
+ORD-0517,2025-11-18,Phone,Electronics,North,Consumer,2,437.49,286.93,874.98,301.12
+ORD-0518,2025-01-25,Phone,Electronics,North,Consumer,4,479.6,276.51,1918.4,812.36
+ORD-0519,2025-06-23,Phone,Electronics,Central,Small Business,8,444.8,300.21,3558.4,1156.72
+ORD-0520,2025-08-05,Laptop,Electronics,Central,Consumer,4,670.32,520.04,2681.28,601.12
+ORD-0521,2025-05-11,Desk,Furniture,Central,Consumer,4,238.5,183.52,954.0,219.92
+ORD-0522,2025-02-23,Notebook,Office Supplies,Central,Corporate,3,5.37,2.14,16.11,9.69
+ORD-0523,2025-03-12,Pen Set,Office Supplies,North,Consumer,7,14.19,5.14,99.33,63.35
+ORD-0524,2025-10-29,Phone,Electronics,South,Corporate,7,470.25,273.03,3291.75,1380.54
+ORD-0525,2025-04-27,Desk Lamp,Furniture,North,Consumer,5,29.45,15.42,147.25,70.15
+ORD-0526,2025-04-24,Notebook,Office Supplies,West,Corporate,3,6.16,1.96,18.48,12.6
+ORD-0527,2025-12-04,Notebook,Office Supplies,South,Corporate,5,6.12,2.12,30.6,20.0
+ORD-0528,2025-02-22,Office Chair,Furniture,South,Consumer,6,166.77,107.42,1000.62,356.1
+ORD-0529,2025-12-01,Desk Lamp,Furniture,South,Consumer,7,34.68,14.2,242.76,143.36
+ORD-0530,2025-12-03,Desk,Furniture,South,Small Business,2,280.69,182.45,561.38,196.48
+ORD-0531,2025-08-07,Phone,Electronics,West,Consumer,1,394.3,314.51,394.3,79.79
+ORD-0532,2025-03-02,Headphones,Electronics,North,Small Business,6,75.05,36.47,450.3,231.48
+ORD-0533,2025-02-26,Backpack,Accessories,Central,Consumer,6,43.45,24.35,260.7,114.6
+ORD-0534,2025-04-14,Notebook,Office Supplies,South,Consumer,3,5.71,2.02,17.13,11.07
+ORD-0535,2025-07-30,Office Chair,Furniture,West,Consumer,2,168.73,119.72,337.46,98.02
+ORD-0536,2025-02-26,Backpack,Accessories,West,Small Business,2,50.76,24.83,101.52,51.86
+ORD-0537,2025-06-16,Notebook,Office Supplies,South,Consumer,7,5.43,2.03,38.01,23.8
+ORD-0538,2025-02-12,Headphones,Electronics,North,Corporate,4,86.46,35.93,345.84,202.12
+ORD-0539,2025-07-17,Backpack,Accessories,Central,Corporate,8,45.95,24.19,367.6,174.08
+ORD-0540,2025-01-08,Office Chair,Furniture,West,Consumer,7,172.52,120.59,1207.64,363.51
+ORD-0541,2025-09-16,Backpack,Accessories,East,Consumer,6,45.18,24.94,271.08,121.44
+ORD-0542,2025-01-21,Backpack,Accessories,East,Corporate,6,43.57,22.39,261.42,127.08
+ORD-0543,2025-03-13,Headphones,Electronics,Central,Consumer,3,90.99,39.2,272.97,155.37
+ORD-0544,2025-03-05,Pen Set,Office Supplies,Central,Consumer,7,12.64,4.86,88.48,54.46
+ORD-0545,2025-10-31,Desk,Furniture,West,Consumer,3,259.63,171.92,778.89,263.13
+ORD-0546,2025-01-20,Phone,Electronics,South,Consumer,4,470.82,299.83,1883.28,683.96
+ORD-0547,2025-06-06,Backpack,Accessories,North,Small Business,4,45.29,22.96,181.16,89.32
+ORD-0548,2025-08-04,Pen Set,Office Supplies,West,Corporate,6,12.34,4.75,74.04,45.54
+ORD-0549,2025-07-08,Desk,Furniture,Central,Corporate,2,278.51,168.57,557.02,219.88
+ORD-0550,2025-09-06,Desk Lamp,Furniture,East,Consumer,2,33.3,16.0,66.6,34.6
+ORD-0551,2025-10-21,Monitor,Electronics,North,Corporate,4,250.11,172.47,1000.44,310.56
+ORD-0552,2025-05-24,Office Chair,Furniture,West,Consumer,4,169.81,106.9,679.24,251.64
+ORD-0553,2025-10-30,Notebook,Office Supplies,East,Consumer,7,5.65,2.12,39.55,24.71
+ORD-0554,2025-04-27,Office Chair,Furniture,East,Consumer,8,171.21,116.15,1369.68,440.48
+ORD-0555,2025-12-26,Laptop,Electronics,Central,Small Business,5,780.44,528.24,3902.2,1261.0
+ORD-0556,2025-07-04,Monitor,Electronics,South,Consumer,6,247.86,167.87,1487.16,479.94
+ORD-0557,2025-09-26,Phone,Electronics,North,Corporate,2,449.28,308.26,898.56,282.04
+ORD-0558,2025-11-16,Headphones,Electronics,South,Small Business,8,84.44,38.28,675.52,369.28
+ORD-0559,2025-10-17,Monitor,Electronics,Central,Consumer,2,262.22,177.26,524.44,169.92
+ORD-0560,2025-11-07,Laptop,Electronics,North,Consumer,3,703.85,490.23,2111.55,640.86
+ORD-0561,2025-07-15,Desk Lamp,Furniture,North,Corporate,2,35.84,15.63,71.68,40.42
+ORD-0562,2025-01-16,Pen Set,Office Supplies,South,Small Business,5,14.58,4.75,72.9,49.15
+ORD-0563,2025-06-29,Headphones,Electronics,South,Consumer,6,89.91,38.95,539.46,305.76
+ORD-0564,2025-03-08,Notebook,Office Supplies,North,Consumer,2,6.29,1.93,12.58,8.72
+ORD-0565,2025-11-21,Phone,Electronics,South,Consumer,8,414.01,292.84,3312.08,969.36
+ORD-0566,2025-03-28,Phone,Electronics,East,Small Business,3,392.25,303.92,1176.75,264.99
+ORD-0567,2025-03-25,Desk,Furniture,Central,Corporate,2,235.19,157.57,470.38,155.24
+ORD-0568,2025-04-02,Backpack,Accessories,Central,Consumer,5,42.92,25.06,214.6,89.3
+ORD-0569,2025-08-23,Headphones,Electronics,North,Corporate,5,95.97,35.35,479.85,303.1
+ORD-0570,2025-07-28,Notebook,Office Supplies,West,Consumer,1,6.35,2.11,6.35,4.24
+ORD-0571,2025-12-13,Laptop,Electronics,East,Consumer,2,697.29,479.3,1394.58,435.98
+ORD-0572,2025-06-01,Headphones,Electronics,North,Consumer,1,76.01,40.53,76.01,35.48
+ORD-0573,2025-04-14,Desk Lamp,Furniture,Central,Corporate,1,29.3,15.52,29.3,13.78
+ORD-0574,2025-01-18,Pen Set,Office Supplies,North,Corporate,2,12.98,4.66,25.96,16.64
+ORD-0575,2025-01-03,Desk Lamp,Furniture,West,Corporate,6,33.85,16.16,203.1,106.14
+ORD-0576,2025-05-17,Laptop,Electronics,Central,Consumer,2,699.24,469.56,1398.48,459.36
+ORD-0577,2025-12-04,Desk Lamp,Furniture,South,Consumer,7,32.09,14.22,224.63,125.09
+ORD-0578,2025-07-11,Laptop,Electronics,West,Consumer,8,789.13,480.89,6313.04,2465.92
+ORD-0579,2025-11-23,Phone,Electronics,North,Corporate,5,437.89,304.44,2189.45,667.25
+ORD-0580,2025-02-07,Desk,Furniture,East,Small Business,3,234.92,160.6,704.76,222.96
+ORD-0581,2025-02-04,Backpack,Accessories,Central,Small Business,3,53.24,24.57,159.72,86.01
+ORD-0582,2025-11-01,Desk,Furniture,North,Consumer,1,232.87,159.38,232.87,73.49
+ORD-0583,2025-02-08,Headphones,Electronics,West,Consumer,2,91.6,38.55,183.2,106.1
+ORD-0584,2025-01-19,Pen Set,Office Supplies,South,Consumer,3,12.37,4.82,37.11,22.65
+ORD-0585,2025-05-28,Headphones,Electronics,Central,Consumer,5,90.95,39.19,454.75,258.8
+ORD-0586,2025-12-04,Backpack,Accessories,West,Consumer,8,44.58,24.57,356.64,160.08
+ORD-0587,2025-09-09,Desk,Furniture,North,Consumer,2,262.49,159.12,524.98,206.74
+ORD-0588,2025-02-06,Phone,Electronics,Central,Consumer,4,409.02,288.17,1636.08,483.4
+ORD-0589,2025-11-02,Monitor,Electronics,East,Consumer,8,266.35,159.72,2130.8,853.04
+ORD-0590,2025-11-04,Notebook,Office Supplies,South,Consumer,3,6.48,2.12,19.44,13.08
+ORD-0591,2025-10-20,Desk Lamp,Furniture,East,Consumer,5,30.33,14.97,151.65,76.8
+ORD-0592,2025-11-26,Backpack,Accessories,North,Consumer,1,45.94,24.25,45.94,21.69
+ORD-0593,2025-03-29,Laptop,Electronics,West,Consumer,2,646.52,508.13,1293.04,276.78
+ORD-0594,2025-12-24,Phone,Electronics,North,Consumer,4,460.47,316.31,1841.88,576.64
+ORD-0595,2025-04-28,Desk Lamp,Furniture,East,Corporate,3,33.29,15.5,99.87,53.37
+ORD-0596,2025-10-20,Backpack,Accessories,East,Consumer,2,48.64,23.32,97.28,50.64
+ORD-0597,2025-07-31,Pen Set,Office Supplies,North,Consumer,4,13.28,4.68,53.12,34.4
+ORD-0598,2025-10-12,Notebook,Office Supplies,West,Consumer,1,5.91,1.87,5.91,4.04
+ORD-0599,2025-08-18,Headphones,Electronics,West,Consumer,5,87.1,37.95,435.5,245.75
+ORD-0600,2025-08-23,Desk Lamp,Furniture,West,Consumer,3,32.14,14.95,96.42,51.57
